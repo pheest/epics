@@ -3662,7 +3662,7 @@ LOCAL void proc_file_subdir(STRING_MSG* pmsg)
 			if (fd!=ERROR) close(fd);
 #else
 			path = server_pathname;
-			mkdir(server_pathname,0775);
+			mkdir(server_pathname);
 #endif
 			/* append '/' */
 			*(server++)= *(local++)= '/';
