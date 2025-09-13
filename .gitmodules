@@ -1,31 +1,24 @@
 [submodule "iocTops/VQM_ITMS"]
 	path = iocTops/VQM_ITMS
 	url = https://git.ccfe.ac.uk/DATAnet/VQM_ITMS.git
-	ignore = untracked
-	branch=master
-	
-[submodule "iocTops/nds-adq"]
-	path = iocTops/nds-adq
-	url = https://git.ccfe.ac.uk/DATAnet/nds-adq
-	ignore = untracked
-	branch=master
+[submodule "support/nds-core"]
+	path = support/nds-core
+	url = https://github.com/pheest/nds-core
 [submodule "support/nds-epics"]
 	path = support/nds-epics
-	url = https://git.ccfe.ac.uk/DATAnet/nds-epics
-	ignore = untracked
-	branch=master
+	url = https://github.com/pheest/nds-epics
+[submodule "iocTops/nds-adq"]
+	path = iocTops/nds-adq
+	url = https://github.com/pheest/nds-adq
 [submodule "support/areaDetector"]
 	path = support/areaDetector
-	url = https://git.ccfe.ac.uk/DATAnet/areaDetector
-	branch=master
+	url = https://pheest/areaDetector
 [submodule "iocTops/CTTSUdp"]
 	path = iocTops/CTTSUdp
-	ignore = untracked
 	url = https://git.ccfe.ac.uk/DATAnet/cttsudp
 [submodule "iocTops/PrincetonSpectro"]
 	path = iocTops/PrincetonSpectro
 	url = https://git.ccfe.ac.uk/DATAnet/princetonspectro
-	branch=master
 [submodule "iocTops/LeyboldTurbo"]
 	path = iocTops/LeyboldTurbo
 	url = https://git.ccfe.ac.uk/DATAnet/LeyboldTurbo
@@ -35,3 +28,24 @@
 [submodule "iocTops/DAQmxBase"]
 	path = iocTops/DAQmxBase
 	url = https://git.ccfe.ac.uk/DATAnet/daqmxbase
+[submodule "support/areaDetector/ADSupport"]
+	path = support/areaDetector/ADSupport
+	url = https://github.com/pheest/ADSupport
+[submodule "support/areaDetector/ADCore"]
+	path = support/areaDetector/ADCore
+	url = https://github.com/pheest/ADCore
+[submodule "support/areaDetector/ADURL"]
+	path = support/areaDetector/ADURL
+	url = https://github.com/pheest/ADURL
+[submodule "support/areaDetector/ADPICam"]
+	path = support/areaDetector/ADPICam
+	url = https://github.com/pheest/ADPICam
+[submodule "support/pyDevSup"]
+	path = support/pyDevSup
+	url = https://github.com/pheest/pyDevSup
+[submodule "support/areaDetector/ADAndor"]
+	path = support/areaDetector/ADAndor
+	url = https://github.com/pheest/ADAndor
+[submodule "iocTops/hidenPyIoc"]
+	path = iocTops/hidenPyIoc
+	url = https://github.com/pheest/hidenPyIoc

@@ -31,7 +31,7 @@ rem Automatically set up the environment when possible ("yes" or "no").
 rem If set to yes, as much of the environment will be set up as possible.
 rem If set to no, just the minimum environment will be set up.  More
 rem specific _auto_* definitions take precedence over this definition.
-set _auto=yes
+set _auto=no
 
 rem Automatically reset PATH ("yes" or "no").  If set to yes, PATH will
 rem be reset to the value of _path_new.  If set to no, PATH will not be
@@ -47,8 +47,6 @@ set _auto_path_append=%_auto%
 rem The new value for PATH.  If _auto_path_reset is yes, PATH will be set
 rem to it.
 set _path_new=C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem
-REM ;C:\GNUWin32\Bin
-REM ;C:\Python311
 
 rem The location of Strawberry Perl (pathname).  If empty, Strawberry Perl
 rem is assumed to already be in PATH and will not be added.  If nonempty,
@@ -56,7 +54,7 @@ rem Strawberry Perl will be added to PATH.
 set _strawberry_perl_home=C:\Strawberry
 
 rem The location of Microsoft Visual Studio (pathname).
-set _visual_studio_home=C:\Program Files\Microsoft Visual Studio\2022\Community
+set _visual_studio_home=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
 
 rem The EPICS host architecture specification for EPICS_HOST_ARCH
 rem (<os>-<arch>[-<toolset>] as defined in configure/CONFIG_SITE).
